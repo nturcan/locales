@@ -16,13 +16,13 @@
     <date-part name="year"/>
   </date>
   <terms>
-    <term name="accessed">data accesării:</term>
+    <term name="accessed">data accesării</term>
     <term name="and">și</term>
     <term name="and others">și alții</term>
     <term name="anonymous">anonim</term>
     <term name="anonymous" form="short">anon.</term>
     <term name="at">la</term>
-    <term name="available at">available at</term>
+    <term name="available at">valabil la</term>
     <term name="by">de</term>
     <term name="circa">circa</term>
     <term name="circa" form="short">cca.</term>
@@ -54,8 +54,8 @@
       <multiple>ref.</multiple>
     </term>
     <term name="retrieved">preluat în</term>
-    <term name="scale">scale</term>
-    <term name="version">version</term>
+    <term name="scale">scală</term>
+    <term name="version">versiune</term>
 
     <!-- ANNO DOMINI; BEFORE CHRIST -->
     <term name="ad">d.Hr.</term>
@@ -66,23 +66,35 @@
     <term name="close-quote">”</term>
     <term name="open-inner-quote">«</term>
     <term name="close-inner-quote">»</term>
-    <term name="page-range-delimiter">–</term>
+    <term name="page-range-delimiter">-</term>
 
     <!-- ORDINALS -->
-    <term name="ordinal">-lea</term>
-    <term name="ordinal-01" match="whole-number"/>
+    <term name="ordinal" gender-form="feminine">-a</term>
+    <term name="ordinal" gender-form="masculine">-lea</term>
+    <term name="ordinal-01" gender-form="masculine" match="whole-number"/>
 
     <!-- LONG ORDINALS -->
-    <term name="long-ordinal-01">primul</term>
-    <term name="long-ordinal-02">al doilea</term>
-    <term name="long-ordinal-03">al treilea</term>
-    <term name="long-ordinal-04">al patrulea</term>
-    <term name="long-ordinal-05">al cincilea</term>
-    <term name="long-ordinal-06">al șaselea</term>
-    <term name="long-ordinal-07">al șaptelea</term>
-    <term name="long-ordinal-08">al optulea</term>
-    <term name="long-ordinal-09">al nouălea</term>
-    <term name="long-ordinal-10">al zecelea</term>
+    <term name="long-ordinal-01" gender-form="feminine">prima</term>
+    <term name="long-ordinal-02" gender-form="feminine">a doua</term>
+    <term name="long-ordinal-03" gender-form="feminine">a treia</term>
+    <term name="long-ordinal-04" gender-form="feminine">a patra</term>
+    <term name="long-ordinal-05" gender-form="feminine">a cincea</term>
+    <term name="long-ordinal-06" gender-form="feminine">a șasea</term>
+    <term name="long-ordinal-07" gender-form="feminine">a șaptea</term>
+    <term name="long-ordinal-08" gender-form="feminine">a opta</term>
+    <term name="long-ordinal-09" gender-form="feminine">a noua</term>
+    <term name="long-ordinal-10" gender-form="feminine">a zecea</term>
+    
+    <term name="long-ordinal-01" gender-form="masculine">primul</term>
+    <term name="long-ordinal-02" gender-form="masculine">al doilea</term>
+    <term name="long-ordinal-03" gender-form="masculine">al treilea</term>
+    <term name="long-ordinal-04" gender-form="masculine">al patrulea</term>
+    <term name="long-ordinal-05" gender-form="masculine">al cincilea</term>
+    <term name="long-ordinal-06" gender-form="masculine">al șaselea</term>
+    <term name="long-ordinal-07" gender-form="masculine">al șaptelea</term>
+    <term name="long-ordinal-08" gender-form="masculine">al optulea</term>
+    <term name="long-ordinal-09" gender-form="masculine">al nouălea</term>
+    <term name="long-ordinal-10" gender-form="masculine">al zecelea</term>
 
     <!-- LONG LOCATOR FORMS -->
     <term name="book">
@@ -166,7 +178,7 @@
     </term>
     <term name="paragraph" form="short">par.</term>
     <term name="part" form="short">part.</term>
-    <term name="section" form="short">sec.</term>
+    <term name="section" form="short">secț.</term>
     <term name="sub verbo" form="short">
       <single>s.v.</single>
       <multiple>s.vv.</multiple>
@@ -193,7 +205,7 @@
     <!-- LONG ROLE FORMS -->
     <term name="director">
       <single>director</single>
-      <multiple>directors</multiple>
+      <multiple>directori</multiple>
     </term>
     <term name="editor">
       <single>editor</single>
@@ -204,8 +216,8 @@
       <multiple>editori</multiple>
     </term>
     <term name="illustrator">
-      <single>illustrator</single>
-      <multiple>illustrators</multiple>
+      <single>ilustrator</single>
+      <multiple>ilustratori</multiple>
     </term>
     <term name="translator">
       <single>traducător</single>
@@ -219,7 +231,7 @@
     <!-- SHORT ROLE FORMS -->
     <term name="director" form="short">
       <single>dir.</single>
-      <multiple>dirs.</multiple>
+      <multiple>dir.</multiple>
     </term>
     <term name="editor" form="short">
       <single>ed.</single>
@@ -230,8 +242,8 @@
       <multiple>ed.</multiple>
     </term>
     <term name="illustrator" form="short">
-      <single>ill.</single>
-      <multiple>ills.</multiple>
+      <single>ilustr.</single>
+      <multiple>ilustr.</multiple>
     </term>
     <term name="translator" form="short">
       <single>trad.</single>
@@ -243,13 +255,13 @@
     </term>
 
     <!-- VERB ROLE FORMS -->
-    <term name="director" form="verb">directed by</term>
+    <term name="director" form="verb">director</term>
     <term name="editor" form="verb">ediție de</term>
     <term name="editorial-director" form="verb">ediție de</term>
-    <term name="illustrator" form="verb">illustrated by</term>
+    <term name="illustrator" form="verb">ilustrații de</term>
     <term name="interviewer" form="verb">interviu de</term>
     <term name="recipient" form="verb">în</term>
-    <term name="reviewed-author" form="verb">by</term>
+    <term name="reviewed-author" form="verb">de</term>
     <term name="translator" form="verb">traducere de</term>
     <term name="editortranslator" form="verb">ediție &amp; traducere de</term>
 
@@ -258,7 +270,7 @@
     <term name="director" form="verb-short">dir.</term>
     <term name="editor" form="verb-short">ed.</term>
     <term name="editorial-director" form="verb-short">ed.</term>
-    <term name="illustrator" form="verb-short">illus.</term>
+    <term name="illustrator" form="verb-short">ilustr.</term>
     <term name="translator" form="verb-short">trad.</term>
     <term name="editortranslator" form="verb-short">ed. &amp; trad. de</term>
 
